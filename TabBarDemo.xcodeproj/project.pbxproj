@@ -13,9 +13,20 @@
 		38F1F7E31E80FFC8007AA06B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F1F7E11E80FFC8007AA06B /* Main.storyboard */; };
 		38F1F7E51E80FFC8007AA06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F1F7E41E80FFC8007AA06B /* Assets.xcassets */; };
 		38F1F7E81E80FFC8007AA06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F1F7E61E80FFC8007AA06B /* LaunchScreen.storyboard */; };
+		38F1F7F81E810379007AA06B /* UIColor+ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F7F71E810379007AA06B /* UIColor+ColorHelper.m */; };
+		38F1F8161E8109A7007AA06B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F8071E8109A7007AA06B /* HomeViewController.m */; };
+		38F1F8171E8109A7007AA06B /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F80A1E8109A7007AA06B /* DynamicViewController.m */; };
+		38F1F8181E8109A7007AA06B /* ADTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F80D1E8109A7007AA06B /* ADTabBar.m */; };
+		38F1F8191E8109A7007AA06B /* ADTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F80F1E8109A7007AA06B /* ADTabBarController.m */; };
+		38F1F81A1E8109A7007AA06B /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F8121E8109A7007AA06B /* MessageViewController.m */; };
+		38F1F81B1E8109A7007AA06B /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F8151E8109A7007AA06B /* MineViewController.m */; };
+		38F1F8211E81124F007AA06B /* ADAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F1F8201E81124F007AA06B /* ADAnimationView.m */; };
+		C0FFA6D04D39F306D6D322DE /* libPods-TabBarDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06619F7AEC8E1E8ECC199A50 /* libPods-TabBarDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06619F7AEC8E1E8ECC199A50 /* libPods-TabBarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabBarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF9709529F0D9A621034C69 /* Pods-TabBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarDemo/Pods-TabBarDemo.release.xcconfig"; sourceTree = "<group>"; };
 		38F1F7D51E80FFC8007AA06B /* TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F1F7D91E80FFC8007AA06B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38F1F7DB1E80FFC8007AA06B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +37,26 @@
 		38F1F7E41E80FFC8007AA06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F1F7E71E80FFC8007AA06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38F1F7E91E80FFC8007AA06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F1F7F61E810379007AA06B /* UIColor+ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHelper.h"; sourceTree = "<group>"; };
+		38F1F7F71E810379007AA06B /* UIColor+ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHelper.m"; sourceTree = "<group>"; };
+		38F1F8061E8109A7007AA06B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		38F1F8071E8109A7007AA06B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		38F1F8091E8109A7007AA06B /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
+		38F1F80A1E8109A7007AA06B /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
+		38F1F80C1E8109A7007AA06B /* ADTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTabBar.h; sourceTree = "<group>"; };
+		38F1F80D1E8109A7007AA06B /* ADTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTabBar.m; sourceTree = "<group>"; };
+		38F1F80E1E8109A7007AA06B /* ADTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTabBarController.h; sourceTree = "<group>"; };
+		38F1F80F1E8109A7007AA06B /* ADTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTabBarController.m; sourceTree = "<group>"; };
+		38F1F8111E8109A7007AA06B /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		38F1F8121E8109A7007AA06B /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		38F1F8141E8109A7007AA06B /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		38F1F8151E8109A7007AA06B /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		38F1F81F1E81124F007AA06B /* ADAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAnimationView.h; sourceTree = "<group>"; };
+		38F1F8201E81124F007AA06B /* ADAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAnimationView.m; sourceTree = "<group>"; };
+		38F1F86A1E812492007AA06B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38F1F86C1E81249C007AA06B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38F1F86E1E8124A3007AA06B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2A981DF6F4D335D41066D27 /* Pods-TabBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarDemo/Pods-TabBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FFA6D04D39F306D6D322DE /* libPods-TabBarDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +76,8 @@
 			children = (
 				38F1F7D71E80FFC8007AA06B /* TabBarDemo */,
 				38F1F7D61E80FFC8007AA06B /* Products */,
+				38F1F8691E812492007AA06B /* Frameworks */,
+				CB562EE64643D3718DAC3E2D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +92,12 @@
 		38F1F7D71E80FFC8007AA06B /* TabBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				38F1F80B1E8109A7007AA06B /* MainTabBarController */,
+				38F1F7F51E810379007AA06B /* UIColorHelper */,
+				38F1F8051E8109A7007AA06B /* Home */,
+				38F1F8081E8109A7007AA06B /* Dynamic */,
+				38F1F8101E8109A7007AA06B /* Message */,
+				38F1F8131E8109A7007AA06B /* Mine */,
 				38F1F7DB1E80FFC8007AA06B /* AppDelegate.h */,
 				38F1F7DC1E80FFC8007AA06B /* AppDelegate.m */,
 				38F1F7DE1E80FFC8007AA06B /* ViewController.h */,
@@ -79,6 +119,84 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		38F1F7F51E810379007AA06B /* UIColorHelper */ = {
+			isa = PBXGroup;
+			children = (
+				38F1F7F61E810379007AA06B /* UIColor+ColorHelper.h */,
+				38F1F7F71E810379007AA06B /* UIColor+ColorHelper.m */,
+			);
+			path = UIColorHelper;
+			sourceTree = "<group>";
+		};
+		38F1F8051E8109A7007AA06B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				38F1F8061E8109A7007AA06B /* HomeViewController.h */,
+				38F1F8071E8109A7007AA06B /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		38F1F8081E8109A7007AA06B /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				38F1F8091E8109A7007AA06B /* DynamicViewController.h */,
+				38F1F80A1E8109A7007AA06B /* DynamicViewController.m */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		38F1F80B1E8109A7007AA06B /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				38F1F80C1E8109A7007AA06B /* ADTabBar.h */,
+				38F1F80D1E8109A7007AA06B /* ADTabBar.m */,
+				38F1F80E1E8109A7007AA06B /* ADTabBarController.h */,
+				38F1F80F1E8109A7007AA06B /* ADTabBarController.m */,
+				38F1F81F1E81124F007AA06B /* ADAnimationView.h */,
+				38F1F8201E81124F007AA06B /* ADAnimationView.m */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		38F1F8101E8109A7007AA06B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				38F1F8111E8109A7007AA06B /* MessageViewController.h */,
+				38F1F8121E8109A7007AA06B /* MessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		38F1F8131E8109A7007AA06B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				38F1F8141E8109A7007AA06B /* MineViewController.h */,
+				38F1F8151E8109A7007AA06B /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		38F1F8691E812492007AA06B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38F1F86E1E8124A3007AA06B /* Foundation.framework */,
+				38F1F86C1E81249C007AA06B /* UIKit.framework */,
+				38F1F86A1E812492007AA06B /* CoreGraphics.framework */,
+				06619F7AEC8E1E8ECC199A50 /* libPods-TabBarDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB562EE64643D3718DAC3E2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2A981DF6F4D335D41066D27 /* Pods-TabBarDemo.debug.xcconfig */,
+				0FF9709529F0D9A621034C69 /* Pods-TabBarDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38F1F7EC1E80FFC8007AA06B /* Build configuration list for PBXNativeTarget "TabBarDemo" */;
 			buildPhases = (
+				74BC84C5E95CC42A297A6A62 /* [CP] Check Pods Manifest.lock */,
 				38F1F7D11E80FFC8007AA06B /* Sources */,
 				38F1F7D21E80FFC8007AA06B /* Frameworks */,
 				38F1F7D31E80FFC8007AA06B /* Resources */,
+				FFDA997A38D142EA7805ECC7 /* [CP] Embed Pods Frameworks */,
+				4B0BE6980FC693D91DFC691A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +231,7 @@
 				TargetAttributes = {
 					38F1F7D41E80FFC8007AA06B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LLN33448E2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,13 +267,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B0BE6980FC693D91DFC691A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBarDemo/Pods-TabBarDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74BC84C5E95CC42A297A6A62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFDA997A38D142EA7805ECC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBarDemo/Pods-TabBarDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38F1F7D11E80FFC8007AA06B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F1F8171E8109A7007AA06B /* DynamicViewController.m in Sources */,
+				38F1F7F81E810379007AA06B /* UIColor+ColorHelper.m in Sources */,
+				38F1F8211E81124F007AA06B /* ADAnimationView.m in Sources */,
 				38F1F7E01E80FFC8007AA06B /* ViewController.m in Sources */,
 				38F1F7DD1E80FFC8007AA06B /* AppDelegate.m in Sources */,
+				38F1F8191E8109A7007AA06B /* ADTabBarController.m in Sources */,
+				38F1F8181E8109A7007AA06B /* ADTabBar.m in Sources */,
+				38F1F81A1E8109A7007AA06B /* MessageViewController.m in Sources */,
+				38F1F81B1E8109A7007AA06B /* MineViewController.m in Sources */,
+				38F1F8161E8109A7007AA06B /* HomeViewController.m in Sources */,
 				38F1F7DA1E80FFC8007AA06B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,8 +446,10 @@
 		};
 		38F1F7ED1E80FFC8007AA06B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A981DF6F4D335D41066D27 /* Pods-TabBarDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LLN33448E2;
 				INFOPLIST_FILE = TabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cesar.TabBarDemo;
@@ -279,8 +459,10 @@
 		};
 		38F1F7EE1E80FFC8007AA06B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF9709529F0D9A621034C69 /* Pods-TabBarDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LLN33448E2;
 				INFOPLIST_FILE = TabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cesar.TabBarDemo;
@@ -307,6 +489,7 @@
 				38F1F7EE1E80FFC8007AA06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
